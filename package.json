@@ -1,0 +1,25 @@
+{
+  "name": "odin-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikuPutkinen/odin-weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikuPutkinen/odin-weather-app/issues"
+  },
+  "homepage": "https://github.com/RikuPutkinen/odin-weather-app#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

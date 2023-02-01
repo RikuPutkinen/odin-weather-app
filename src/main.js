@@ -1,0 +1,1 @@
+const DEGREE_SIGN_HTML_CODE = "&#176;";
