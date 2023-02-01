@@ -1,0 +1,43 @@
+.temperature-selection-container, .weather-info-container, .search-container{
+  display: flex;
+  margin: 8px;
+}
+
+.container {
+  max-width: 400px;
+}
+.search-container {
+  gap: 4px;
+}
+
+.temperature-selection-container {
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1 1 0;
+}
+
+select {
+  height: 2rem;
+  width: 5rem;
+  margin-left: auto;
+}
+
+.weather-info-container {
+  justify-content: space-between;
+}
+
+#icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+#temperature-number {
+  font-size: 40px;
+  text-align: center;
+}
+
+p, label {
+  font-size: larger;
+}

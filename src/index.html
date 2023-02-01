@@ -10,9 +10,11 @@
 </head>
 <body>
   <div class="container">
-    <label for="search">Location:</label>
-    <input type="search" id="search" placeholder="Helsinki">
-    <button type="button" id="search-button">Search</button>
+    <div class="search-container">
+      <label for="search">Location:</label>
+      <input type="search" id="search" class="search-bar" placeholder="Helsinki">
+      <button type="button" id="search-button">Search</button>
+    </div>
     <div class="temperature-selection-container">
       <p>
         Temperature unit:
@@ -22,16 +24,16 @@
         <option id="fahrenheit" value="f">&#176;F</option>
       </select>
     </div>
-    <div class="weather-info-container">
     <h1 id="location-name"></h1>
+    <div class="weather-info-container">
       <div class="weather-info">
-        <p>Weather:</p>
+        <h2>Weather:</h2>
         <div id="icon-container">
         </div>
-        <div id="icon-description"></div>
+        <p id="icon-description"></p>
       </div>
       <div class="temperature-info-container">
-        <p>Temperature:</p>
+        <h2>Temperature:</h2>
         <p id="temperature-number"></p>
       </div>
 
